@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/font"
+            android:title="font" />
+        <item
+            android:id="@+id/bottomTab"
+            android:title="bottomTab" />
+        <item
+            android:id="@+id/floatingAdd"
+            android:title="floatingAdd" />
+        <item
+            android:id="@+id/scrolling"
+            android:title="scrolling" />
+    </group>
+
+    <item android:title="sub">
+        <menu>
+            <group android:checkableBehavior="all" >
+                <item
+                    android:id="@+id/font2"
+                    android:actionLayout="@layout/checkbox"
+                    android:title="font" />
+                <item
+                    android:id="@+id/bottomTab2"
+                    android:title="bottomTab" />
+                <item
+                    android:id="@+id/floatingAdd2"
+                    android:title="floatingAdd" />
+                <item
+                    android:id="@+id/scrolling2"
+                    android:title="scrolling" />
+            </group>
+        </menu>
+    </item>
+</menu>
